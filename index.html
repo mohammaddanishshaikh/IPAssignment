@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <DIV class="container">
+        <img src="bvcoenm.jpeg" alt="College's Logo">
+        <H1 align="center" style="font-family:cambria;font-size:40" ;><U>STUDENT MARKSHEET</H1>
+        <FIELDSET>
+            <LEGEND> STUDENT INFORMATION </LEGEND>
+            <TABLE align="center" id="tbl">
+                <FORM name="form1">
+                    <label>Name:</label>
+                    <INPUT type="text" name="txtname" id="name" />
+                    <label>Middle Name:</label>
+                    <INPUT type="text" name="txtfname" id="fname"/>
+
+                    <label for="insname">Institute Name:</label>
+                    <INPUT type="text" name="txtins" id="insname"/>
+                    <label for="batch">Batch:</label>
+                    <INPUT type="text" name="txtbatch" id="bname" />
+
+                </form>
+            </TABLE>
+        </FIELDSET></BR>
+        <FIELDSET>
+            <LEGEND> SUBJECTS MARKS </LEGEND>
+
+            <label for="ipmarks">Internet Programing(IP):</label>
+            <input type="number" id="ipmarks" placeholder="IP marks">
+            <label for="grades" id="ipgrades">O</label>
+
+            <label for="cns">Computer Network(CNS):</label>
+            <input type="number" id="cnsmarks" placeholder="CNS marks">
+            <label for="grades" id="cnsgrades">O</label>
+
+            <label for="se">Software Engineering(SE):</label>
+            <input type="number" id="semarks" placeholder="SE marks">
+            <label for="grades" id="segrades">O</label>
+
+            <label for="ebis">E-Business(E-Biz):</label>
+            <input type="number" id="ebismarks" placeholder="EBIS marks">
+            <label for="grades" id="ebisgrades">O</label>
+
+            <label for="admt">Advance Data Management Technology(ADMT): </label>
+            <input type="number" id="admtmarks" placeholder="ADMT marks">
+            <label for="grades" id="admtgrades">O</label>
+
+        </FIELDSET>
+        <DIV class="btn">
+            <button style="font-size:17" class="btn-form" type="button" onclick='myFun()'>Submit</button>
+            <button style="font-size:17" class="btn-form" type="Reset">Reset</button>
+        </DIV>
+        <DIV class="demo" style="text-align: CENTER;">
+            <TABLE border="1">
+                <TR>
+                    <TH colspan="8" width="240"> Student Information </TH>
+                </TR>
+                <TR>
+                    <TD width="135">Name:</TD>
+                    <TD>
+                        <FONT face="arial" id="demoname"></FONT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD width="135">Middle Name:</TD>
+                    <TD>
+                        <FONT face="arial" id="demofname"></FONT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD width="135">Institute Name:</TD>
+                    <TD>
+                        <FONT face="arial" id="demoins"></FONT>
+                    </TD>
+                </TR>
+                <TD width="135">Batch:</TD>
+                <TD>
+                    <FONT face="arial" id="demobatch"></FONT>
+                </TD>
+                </TR>
+                <TR>
+                    <TH colspan="8" width="240"> Subjects Marks </TH>
+                </TR>
+                <TR>
+                    <TD width="135">Internet Programing(IP):</TD>
+                    <TD>
+                        <FONT face="arial" id="demooffice"></FONT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD width="135">Computer Network(CNS):</TD>
+                    <TD>
+                        <FONT face="arial" id="demoweb"></FONT>
+                    </TD>
+                </TR>
+                <TD width="135">Software Engineering(SE):</TD>
+                <TD>
+                    <FONT face="arial" id="demoit"></FONT>
+                </TD>
+                </TR>
+                <TR>
+                    <TD width="135">E-Bussiness(E-BIZ):</TD>
+                    <TD>
+                        <FONT face="arial" id="democ"></FONT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TH colspan="8" width="240"> Marks Result </TH>
+                </TR>
+                <TR>
+                    <TD width="135">TOTAL:</TD>
+                    <TD>
+                        <FONT face="arial" id="demototal"></FONT></TT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD width="135">Percentage:</TD>
+                    <TD>
+                        <FONT face="arial" id="demoper"></FONT>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD width="135">Grade:</TD>
+                    <TD>
+                        <FONT face="arial" id="demograde"></FONT>
+                    </TD>
+                </TR>
+            </TABLE>
+        </DIV>
+    </DIV>
+  
+</body>
+<script src="script.js"></script>
+
+</html>
